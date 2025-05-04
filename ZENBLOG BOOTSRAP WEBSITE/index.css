@@ -1,0 +1,200 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img{
+    height: 80px;
+}
+
+.nav-h3{
+    padding-left: 45px;
+    padding-top: 10px;
+    color: rgb(68, 65, 65);
+    font: 30px;
+}
+.nav-link{
+    color: rgb(99, 94, 94);
+}
+
+.navbar-collapse{
+    justify-content: center;
+}
+.nav-item{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.navbar{
+    background-color: rgba(154, 146, 146, 0.154);
+}
+
+.icon{
+    padding-right: 60px;
+}
+.icon-link{
+    text-decoration: none;
+    color: rgb(113, 113, 113);
+    padding: 2px;
+    
+}
+
+
+.carousel-inner{
+padding-top: 40px;
+padding-left: 65px;
+padding-right: 65px;
+padding-bottom: 65px;
+}
+
+
+.camron-img{
+    height: 40px;
+
+}
+span{
+    font-size: 15px;
+}
+
+
+/*  */
+.column-h1{
+    font-weight: bolder;
+    font-size: 32px;
+    
+    color: rgba(78, 74, 74, 0.935);
+}
+
+.column-h1:hover{
+    text-decoration: underline 4px;
+
+}
+
+
+
+
+
+.column-below-para{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.column-para{
+    font-weight: bold 3px;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.76);
+}
+
+.column-h5{
+    font-weight: bold 4px;
+    color: rgba(73, 69, 69, 0.901);
+    font-size: 20px;
+}
+.column-h5:hover{
+    text-decoration: underline;
+}
+
+
+/*  */
+
+.trending-h3{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+
+.h5-trending{
+    padding-top: 20px;
+    font-size: 17px;
+    color: black
+}
+.h5-trending:hover{
+    text-decoration: underline;
+
+}
+
+.para-trending{
+    padding-top: 5px;
+    font-size: 15px;
+    color: gray;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation-name: container;
+    animation-duration: 0.7s;
+
+    
+}
+
+@keyframes container{
+    from{
+        transform: translateY(150px);
+       
+    }
+    
+
+}
+
+
+ 
+.carousel-inner{
+    animation-name: carousel-inner;
+    animation-duration: 0.9s;
+
+}
+
+@keyframes carousel-inner{
+    from{
+        transform: translateY(60px);
+    }
+    
+
+}
+
+.culture-section{
+    display: flex;
+}
+.culture-roundimg{
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 40px;
+    /* border-radius: 50px; */
+}
+
+
+
+/* Footer */
+
+.main-footer{
+    display: flex;
+    height: 430px;
+    background-color: black;
+}
+
+
+.footer-icon{
+    padding: 5px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+
+.footer-link{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    list-style: none;
+}
+.footer-link:hover{
+    color: rgba(177, 177, 192, 0.428);
+}
+
+.footer-h4{
+    font-size: 16px;
+    padding-left: 30px;
+}
